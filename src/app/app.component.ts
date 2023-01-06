@@ -5,8 +5,6 @@ import { FeatureFlagDirective } from './directives/feature-flag.directive';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterModule, FeatureFlagDirective],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
